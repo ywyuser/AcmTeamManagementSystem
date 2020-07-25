@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    height: 800px;
+    width: 100%;
+    margin-top: 0;
+}
+
+body {
+    width: 100%;
+    height: auto;
+}
+
+.containe {
+    width: 100%;
+    margin-bottom: 0px
+}
+
+.choice {
+    width: 90%;
+    height: 80px;
+    top: 50px;
+    margin-top: 0;
+    float: right;
+}
+
+.choice .nav {
+    margin: 0 auto;
+}
+
+.year {
+    width: 8%;
+    height: 100%;
+    float: left;
+}
+
+.yincang {
+    overflow: hidden;
+    height: 0;
+    transition: 0.7s;
+}
+
+.neirong {
+    background: #fff;
+    width: 92%;
+    margin-bottom: 0;
+    float: right;
+}
+
+.header {
+    margin-top: 0;
+    height: 136px;
+    width: 100%;
+    background-size: 173px 173px;
+    background: url(/public/img/log.png) no-repeat
+}
+
+.nava {
+    height: 480px;
+    overflow-y: scroll
+}
+
+.caption ul {
+    text-align: auto;
+    list-style: none
+}
+
+.imga {
+    float: left;
+    width: 260px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.imgas {
+    border: 1px solid #ccc;
+    width: 260px;
+    margin-top: 20px;
+    margin-left: 25px;
+    border-radius: 10px;
+    padding: 10px
+}
+
+.imgas img {
+    max-width: 250px;
+    max-height: 200px;
+    display: inline
+}
+
+.imgas li {
+    font-family: "微软雅黑";
+    margin-top: 13px
+}
+
+.thumbnail img {
+    max-width: 250px;
+    max-height: 200px
+}
+
+.thumbnail li {
+    font-family: "微软雅黑";
+    margin-top: 13px
+}
+
+b {
+    font-size: 15px;
+}
